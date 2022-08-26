@@ -1,0 +1,7 @@
+fun main()
+{
+   println("Name") // Your Name
+   println("Birth Date")     //   Your Birth date
+   println("Age") // Your Age
+   println("Address")  //Your Address
+}
