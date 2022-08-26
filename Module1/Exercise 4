@@ -1,0 +1,9 @@
+//Write a program to find the Area of Circle
+
+fun main()
+{
+   var a = 5// where a is radius
+   
+   println(3.14*a*a)// Area of Circle Pi r squared
+
+}
