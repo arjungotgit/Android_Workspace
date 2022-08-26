@@ -1,0 +1,12 @@
+//Write a program to make addition, Subtraction, Multiplication and Division of Two Numbers.
+
+fun main()
+{
+   var a = 5
+   var b = 3
+
+   println(a+b)// Addition
+   println(a-b)// Subtraction
+   println(a*b)// Multiplication
+   println(a/b)// Division
+}
