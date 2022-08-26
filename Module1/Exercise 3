@@ -1,0 +1,11 @@
+//Write a program to make a square and cube of number.
+
+fun main()
+{
+   var a = 5
+
+
+   println(a*a)// square
+   println(a*a*a)// Cube
+   
+}
