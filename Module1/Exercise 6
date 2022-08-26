@@ -1,0 +1,18 @@
+//Write a program to find the Simple Interest 
+//A = P (1 + rt)
+
+fun main()
+{
+   var p = 5000// where p is principle
+   var r:Double= 10.00// where r is interest in percentage
+   var t = 5// where t is time in years
+
+   r=r/100 // convert interest to percentage
+
+   var interest:Double= (1+r*t)
+
+   var amount:Double = (p*interest)
+
+   println(amount)
+
+}
