@@ -1,0 +1,7 @@
+//Write a program to find the Area of Triangle
+fun main()
+{
+   var a = 5// where a is base
+   var b= 3// where b is height
+   println(0.5*a*b)// Area of Triangle
+}
