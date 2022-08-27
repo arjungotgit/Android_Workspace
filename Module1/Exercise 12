@@ -1,0 +1,19 @@
+// Check If Prime Number
+
+fun main() {
+
+    var a = 11
+
+    println("$a is Prime number?")
+
+    for (i in 2..a)
+    {
+        if (a % i ==0)
+        {println("Number is  Prime")}
+
+        else
+        {println("Not Prime Number")}
+    }
+
+}
+// Incorrect Code
