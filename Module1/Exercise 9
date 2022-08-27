@@ -1,0 +1,14 @@
+// Write a Program to show swap of two No's without using third variable.
+fun main()
+{
+   var a = 7
+   var b = 3
+   println("Entered Number is $a")
+   println("Entered Number is $b")
+   a = a + b
+   b = a - b
+   a = a - b
+   println("Swapped numbers")
+   println(a)
+   println(b)
+}
