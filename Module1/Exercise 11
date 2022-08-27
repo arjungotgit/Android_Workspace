@@ -1,0 +1,11 @@
+// Program for Checking LEAP Year
+
+fun main () {
+    var a = 2083
+    println("Entered year is $a")
+    a= a%4
+   if (a>0)
+   {println(" Not LEAP YEAR")}
+else
+   {println("Leap Year")}
+}
