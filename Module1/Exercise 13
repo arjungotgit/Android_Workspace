@@ -1,0 +1,16 @@
+// Write a program to find the Max number from the given three number
+//using Nested If
+
+fun main() {
+    var a = 51
+    var b = 60
+    var c = 7
+
+    val max = if (a>b)
+    {if (a>c) println ("$a is Max Number")
+        else println("$c is Max Number")}
+    else
+    {if (b>c) println("$b is Max Number")
+        else println("$c is Max Number")}
+
+}
