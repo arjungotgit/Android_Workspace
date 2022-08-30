@@ -1,0 +1,40 @@
+fun main(){
+    open class A1
+    {
+        fun a1()
+        {
+            println("A Executed")
+        }
+    }
+    open class B1 : A1()
+    {
+        fun b1()
+        {
+            println("B Executed")
+        }
+    }
+    interface C1 :B1()
+    {
+        fun c1()
+        {
+            println("C Executed")
+        }
+    }
+        class D1: B1(),C1()
+        {
+            fun d1() 
+            {
+                println("D Executed")
+            }
+        }
+    fun main()
+    {
+        var Final= D1()
+        c.a1()
+        c.b1()
+        c.c1()
+        d.d1()
+
+    }
+
+}
