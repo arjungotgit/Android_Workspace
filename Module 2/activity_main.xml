@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background">
+
+
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Food Order App"
+        android:layout_margin="40dp"
+        android:gravity="center"
+        />
+
+    <CheckBox
+        android:id="@+id/chk1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn"
+        android:text="Pizza @ rs.120" />
+
+
+    <CheckBox
+        android:id="@+id/chk2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Burger @ rs.50"
+        android:layout_below="@id/chk1"/>
+
+    <CheckBox
+        android:id="@+id/chk3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Coffee @ rs.70"
+        android:layout_below="@id/chk2"/>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ORDER"
+        android:layout_below="@id/chk3"
+        android:gravity="center"
+        android:layout_margin="40dp"
+        />
+
+
+
+
+</RelativeLayout>
